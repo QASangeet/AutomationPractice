@@ -30,18 +30,37 @@ or can be sign up through Gmail or Apple ID.
 5.
 6. 
 
-
-
 # M-5. Sequence of git code for updating a small changes:
 1. git status
 2. git add <modified files name>
 3. git commit -m "<comments for reference, can be anything>
 4. git push
 
+# M-6. Create a common repository and provide the access to all collaborators.
+1. Create a repository names as "Common Repo"
+2. Do the git clone
+3. Provide the access to all collaborators.
+4. Collaborators will receive and accept the invitation via email.
 
-# Task -1, Date: 29th July 2026
+# M-7. How to share the repository access to the collaborators?
+1. Open the repository.
+2. click on the setting.
+3. Clicks on the "collaborators"
+4. clicks on the "Add people". Here a pop-up will appear.
+5. Add the collaborators email/git board username.
+6. Now collaborators will accept the invitations.
+
+
+# M-8.
+29th 40:59  
+
+
+
+# Task -1: Date: 29th July 2026
 1. Create 3 different files.
 2. Push these files
 3. Update first file.
 4. Delete 2nd file
 5. Rename 3rd file.
+
+# Task -2:
