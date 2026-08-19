@@ -32,6 +32,11 @@ or can be sign up through Gmail or Apple ID.
 
 
 
+# M-5. Sequence of git code for updating a small changes:
+1. git status
+2. git add <modified files name>
+3. git commit -m "<comments for reference, can be anything>
+4. git push
 
 
 # Task -1, Date: 29th July 2026
