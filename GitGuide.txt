@@ -42,19 +42,46 @@ or can be sign up through Gmail or Apple ID.
 3. Provide the access to all collaborators.
 4. Collaborators will receive and accept the invitation via email.
 
-# M-7. How to share the repository access to the collaborators?
+# M-7. Create a common repository and provide access to the collaborators?
 1. Open the repository.
 2. click on the setting.
 3. Clicks on the "collaborators"
 4. clicks on the "Add people". Here a pop-up will appear.
 5. Add the collaborators email/git board username.
-6. Now collaborators will accept the invitations.
+6. Now collaborators will receive the invitation through email and accept the invitations.
+7. Once invitation accepted then the collaborator name will appears.
 
 
-# M-8.
-29th 40:59  git
+# M-8. Inside a common repository create your folder
+1. Go to the "GitCode" folder. (In drive)
+2. Inside this folder open the Git Base terminal.
+3. Go to the github(web) and copy the Code URL (HTTP)
+	URL -> https://github.com/sqatools/GTM_PlaywrightTS_BATCH17.git
+4. Go to the git terminal and add below command:
+git clone <https://github.com/sqatools/GTM_PlaywrightTS_BATCH17.git>
+>> Not this folder "GTM_PlaywrightTS_BATCH17" will created successfully.
+
+5. Go to the repository folder and create a folder with name "SangeetS"
+- No white space or underscore between the words" 
+- Create a file inside this folder "SangeetS"
+- Now close the existing terminal.
+- Now go to inside the repo "GTM_PlaywrightTS_BATCH17" and open the git bash terminal.
+- Write command 
+"git status"
+git add <SangeetS/"
+git commit -m "Adding new folder"
+git push  (Sometimes the pushing may not happen, it may be rejected.)
+git pull -> It will open an editor to merge changes.
+Close the terminal with :wq command
+git push
+
+Note- Sometimes git will not allow us to do the same.
+
+# M-9. 31st July-->
 
 
+
+ 
 
 # Task -1: Date: 29th July 2026
 1. Create 3 different files.
